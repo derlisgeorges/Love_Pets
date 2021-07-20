@@ -40,6 +40,5 @@ namespace senai_lovePets_webApi.Interfaces
         /// <param name="idSituacao">ID da situação que será deletado</param>
         void Deletar(int idSituacao);
 
-
     }
 }

@@ -39,6 +39,5 @@ namespace senai_lovePets_webApi.Interfaces
         /// </summary>
         /// <param name="idDono">ID do dono que será deletado</param>
         void Deletar(int idDono);
-
     }
 }

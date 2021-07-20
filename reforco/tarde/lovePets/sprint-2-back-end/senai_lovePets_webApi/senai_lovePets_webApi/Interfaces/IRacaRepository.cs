@@ -39,7 +39,5 @@ namespace senai_lovePets_webApi.Interfaces
         /// </summary>
         /// <param name="idRaca">ID da raça que será deletado</param>
         void Deletar(int idRaca);
-
-
     }
 }

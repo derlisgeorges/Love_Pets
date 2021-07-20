@@ -3,9 +3,9 @@ GO
 
 SELECT * FROM clinica;
 SELECT * FROM veterinario;
+SELECT * FROM pet;
 SELECT * FROM tipoUsuario;
 SELECT * FROM usuario;
-SELECT * FROM pet;
 SELECT * FROM raca;
 SELECT * FROM dono;
 SELECT * FROM tipoPet;
@@ -51,11 +51,17 @@ INNER JOIN clinica
 ON clinica.idClinica = veterinario.idClinica;
 
 SELECT * FROM atendimento
-WHERE idAtendimento = 2
+WHERE idAtendimento = 2;
 
 DELETE FROM atendimento
-WHERE idAtendimento = 1
+WHERE idAtendimento = 1;
 
 UPDATE atendimento
 SET idSituacao = 2
-WHERE idAtendimento = 2
+WHERE idAtendimento = 2;
+
+SELECT * FROM usuario
+WHERE email = 'saulo@email.com' AND senha = 'saulo123';
+
+SELECT * FROM atendimento
+WHERE idUsuario = 2;

@@ -8,6 +8,7 @@ namespace senai_lovePets_webApi.Interfaces
 {
     interface IClinicaRepository
     {
+
         /// <summary>
         /// Lista todas as clinica
         /// </summary>
@@ -39,7 +40,5 @@ namespace senai_lovePets_webApi.Interfaces
         /// </summary>
         /// <param name="idClinica">ID da clinica que será deletado</param>
         void Deletar(int idClinica);
-
-
     }
 }

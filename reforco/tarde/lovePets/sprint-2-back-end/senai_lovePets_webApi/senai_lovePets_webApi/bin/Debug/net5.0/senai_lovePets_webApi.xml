@@ -92,6 +92,14 @@
             <param name="idAtendimento">ID do atendimento que será alterado</param>
             <param name="idNovaSituacao">ID da nova situação</param>
         </member>
+        <member name="M:senai_lovePets_webApi.Interfaces.IUsuarioRepository.BuscarPorEmailSenha(System.String,System.String)">
+            <summary>
+            Busca um usuário existente
+            </summary>
+            <param name="email">O e-mail que o usuário digitou</param>
+            <param name="senha">A senha que o usuário digitou</param>
+            <returns>Um usuário encontrado</returns>
+        </member>
         <member name="F:senai_lovePets_webApi.Repositories.AtendimentoRepository.ctx">
             <summary>
             Instancia o objeto ctx com a classe lovePetsContext
@@ -142,6 +150,14 @@
             Lista todos os atendimentos
             </summary>
             <returns>Uma lista de atendimentos</returns>
+        </member>
+        <member name="M:senai_lovePets_webApi.Repositories.UsuarioRepository.BuscarPorEmailSenha(System.String,System.String)">
+            <summary>
+            Busca um usuário existente
+            </summary>
+            <param name="email">O e-mail que o usuário digitou</param>
+            <param name="senha">A senha que o usuário digitou</param>
+            <returns>Um usuário encontrado</returns>
         </member>
     </members>
 </doc>

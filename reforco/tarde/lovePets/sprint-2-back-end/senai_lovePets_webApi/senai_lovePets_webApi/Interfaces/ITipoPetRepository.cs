@@ -9,37 +9,36 @@ namespace senai_lovePets_webApi.Interfaces
     interface ITipoPetRepository
     {
         /// <summary>
-        /// Lista todos os atendimentos
+        /// Lista todos os tiposPet
         /// </summary>
-        /// <returns>Uma lista de atendimentos</returns>
+        /// <returns>Uma lista de tiposPet</returns>
         List<TipoPet> ListarTodos();
 
         /// <summary>
-        /// Busca um atendimento através do seu ID
+        /// Busca um tiposPet através do seu ID
         /// </summary>
-        /// <param name="idTipoPet">ID do atendimento que será buscado</param>
-        /// <returns>Um atendimento encontrado</returns>
+        /// <param name="idTipoPet">ID do tiposPet que será buscado</param>
+        /// <returns>Um tiposPet encontrado</returns>
         TipoPet BuscarPorId(int idTipoPet);
 
         /// <summary>
-        /// Cadastra um novo atendimento
+        /// Cadastra um novo tiposPet
         /// </summary>
         /// <param name="novoTipoPet">Objeto com as novas informações</param>
         void Cadastrar(TipoPet novoTipoPet);
 
         /// <summary>
-        /// Atualiza um atendimento existente
+        /// Atualiza um tiposPet existente
         /// </summary>
-        /// <param name="idTipoPet">ID do atendimento que será atualizado</param>
+        /// <param name="idTipoPet">ID do tiposPet que será atualizado</param>
         /// <param name="TipoPetAtualizado">Objeto com as novas informações</param>
         void Atualizar(int idTipoPet, TipoPet TipoPetAtualizado);
 
         /// <summary>
-        /// Deleta um atendimento existente
+        /// Deleta um tiposPet existente
         /// </summary>
-        /// <param name="idTipoPet">ID do atendimento que será deletado</param>
+        /// <param name="idTipoPet">ID do tiposPet que será deletado</param>
         void Deletar(int idTipoPet);
-
 
     }
 }
