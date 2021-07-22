@@ -141,3 +141,14 @@ C:\Users\saulo.santos\Downloads\SENAI\CT\2021-1S-2D\senai-dev-1s2021-alunos\refo
 C:\Users\saulo.santos\Downloads\SENAI\CT\2021-1S-2D\senai-dev-1s2021-alunos\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\saulo.santos\Downloads\SENAI\CT\2021-1S-2D\senai-dev-1s2021-alunos\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\saulo.santos\Downloads\SENAI\CT\2021-1S-2D\senai-dev-1s2021-alunos\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.xml
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.csproj.AssemblyReference.cache
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.AssemblyInfo.cs
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.dll
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\ref\senai_lovePets_webApi.dll
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.xml
+C:\Users\fic\Desktop\Love_Pets\reforco\tarde\lovePets\sprint-2-back-end\senai_lovePets_webApi\senai_lovePets_webApi\obj\Debug\net5.0\senai_lovePets_webApi.pdb

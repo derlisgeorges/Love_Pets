@@ -17,24 +17,45 @@ namespace senai_lovePets_webApi.Repositories
 
         public void Atualizar(int idClinica, Clinica ClinicaAtualizada)
         {
-            
-        }
+            Clinica ClinicaBuscada = BuscarPorId(idClinica);
 
+
+            if (ClinicaAtualizada.Endereco != null)
+            {
+                ClinicaBuscada.Endereco = ClinicaAtualizada.Endereco;
+            }
+
+            if (ClinicaAtualizada.RazaoSocial != null)
+            {
+                ClinicaBuscada.RazaoSocial = ClinicaAtualizada.RazaoSocial;
+            }
+
+            if (ClinicaAtualizada.Cnpj != null)
+            {
+                ClinicaBuscada.Cnpj = ClinicaAtualizada.Cnpj;
+            }
+
+            ctx.Clinicas.Update(ClinicaBuscada);
+
+            ctx.SaveChanges();
+
+        }
+            
         public Clinica BuscarPorId(int idClinica)
         {
-            throw new NotImplementedException();
+            return ctx.Clinicas.Find(idClinica);
         }
 
         public void Cadastrar(Clinica novaClinica)
         {
-            ctx.Clinica.Add(novaClinica);
+            ctx.Clinicas.Add(novaClinica);
 
             ctx.SaveChanges();
         }
 
         public void Deletar(int idClinica)
         {
-            ctx.Clinica.Remove(BuscarPorId(idClinica));
+            ctx.Clinicas.Remove(BuscarPorId(idClinica));
 
             ctx.SaveChanges();
         }
